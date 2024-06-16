@@ -55,7 +55,6 @@ https://github.com/IvanPovaliaev/FruitNinjaWinFormsApp/assets/157638990/6091fd49
 Проект выполнен с соблюдением принципов **ООП** и использованием **LINQ**.
 
 Решение содержит 2 проекта:
-В решении содержится 5 проектов:
 1. Проект общей библиотеки `BallGame.Common`.
 2. Проект `FruitNinjaWinFormsApp`.
 
@@ -63,9 +62,10 @@ https://github.com/IvanPovaliaev/FruitNinjaWinFormsApp/assets/157638990/6091fd49
 Структура каталога решения:<br />
 ![image](https://github.com/IvanPovaliaev/FruitNinjaWinFormsApp/assets/157638990/82d9a6c9-2055-4835-9271-826120fd083e)
 
-Проект `BallGame.Common` является общей библиотекой классов для следующих проектов:
+`BallGame.Common` является общей библиотекой классов для следующих проектов:
 * [BallGamesWindowsFormApp](https://github.com/IvanPovaliaev/BallGamesWindowsFormApp)
 * [FruitNinjaWinFormsApp](https://github.com/IvanPovaliaev/FruitNinjaWinFormsApp)
+* [AngryBirdsWinFormsApp](https://github.com/IvanPovaliaev/AngryBirdsWinFormsApp)
 
 ### 🎶Работа со звуком
 Для работы со звуком была использована библиотека `NAudio`. Работа со звуком осуществляется с помощью статического класса `AudioProvider` общей библиотеки `BallGame.Common`:
