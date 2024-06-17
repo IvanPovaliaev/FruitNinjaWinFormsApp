@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             childFormPanel = new System.Windows.Forms.Panel();
             SuspendLayout();
             // 
@@ -47,6 +48,7 @@
             ClientSize = new System.Drawing.Size(784, 461);
             Controls.Add(childFormPanel);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MaximumSize = new System.Drawing.Size(800, 500);
             MinimizeBox = false;
